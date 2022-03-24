@@ -1,0 +1,8 @@
+1 W symulatorze GNS3 skonfiguruj wirtualną sieć o podanej topologii, tak aby:
+    1 Wirtualna sieć była połączona z zewnętrzną ('fizyczną') siecią 'Cloud'.
+    2 Ruter R5 uzyskiwał dynamiczny adres IP z sieci 'Cloud'.
+    3 Pozostałe urządzenia posiadały statyczne adresy w swoich sieciach.
+    4 Możliwe było wysyłanie komunikatów "ping" pomiędzy dowolna parą urządzeń sieci wirtualnej.
+    5 Możliwe było wysyłanie komunikatów "ping" z dowolnego urządzenia w sieci wirtualnej na zewnętrzny adres, np. 'google.com'.
+2 Ustaw przechwytywanie komunikatów w sieciach: 192.168.0.0, 192.168.2.0, 192.168.3.0.
+3 Przeanalizuj przechwycone komunikaty dla zapytania wysłanego z komputera PC2: 'ping google.com'.
